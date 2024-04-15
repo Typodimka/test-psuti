@@ -1,5 +1,4 @@
 import React, {useState} from 'react';
-import './App.css';
 import img from './assets/img/image 1.svg';
 import {data} from "./data";
 import {Grid} from "@mui/material";
@@ -83,18 +82,6 @@ function App() {
 
             </div>
 
-
-            <div style={{
-                position: "absolute",
-                bottom: 0,
-                right: 0,
-                display: "flex",
-                alignItems: "center",
-                width: 500
-            }}>
-
-
-            </div>
 
 
             <Grid container spacing={2} sx={{p: 2}}>
