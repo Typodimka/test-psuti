@@ -1,21 +1,14 @@
 import React, {useState} from 'react';
-import logo from './logo.svg';
 import './App.css';
 import img from './assets/img/image 1.svg';
 import {data} from "./data";
 import {Grid} from "@mui/material";
 
-const sv = {
-    position: "absolut",
-    bottom: 0,
-    left: 0,
-    display: "flex"
-}
+
 
 function App() {
 
     const [value, setValue] = useState("")
-    const [display, setDisplay] = useState("")
 
     const [displays, setDisplays] = useState<string[]>([])
 
@@ -36,12 +29,11 @@ function App() {
 
             setDisplays(copyDisplays)
 
-            const search = data[find[0]];
-            setDisplay(`${find[0]}:  ${search}`);
+
         } else {
             // Обработка случая, когда не найдено ни одного соответствия
             // Например, можно установить пустую строку в setDisplay
-            setDisplay("");
+            setDisplays([]);
         }
     }
 
