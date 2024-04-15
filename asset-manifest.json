@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/psuti-test/static/css/main.e6c13ad2.css",
-    "main.js": "/psuti-test/static/js/main.2d39a810.js",
+    "main.js": "/psuti-test/static/js/main.6297c6e2.js",
     "static/js/453.b5b94a15.chunk.js": "/psuti-test/static/js/453.b5b94a15.chunk.js",
     "static/media/image 1.svg": "/psuti-test/static/media/image 1.84a1574828a47b1b1caf6e7e339b617f.svg",
     "index.html": "/psuti-test/index.html",
     "main.e6c13ad2.css.map": "/psuti-test/static/css/main.e6c13ad2.css.map",
-    "main.2d39a810.js.map": "/psuti-test/static/js/main.2d39a810.js.map",
+    "main.6297c6e2.js.map": "/psuti-test/static/js/main.6297c6e2.js.map",
     "453.b5b94a15.chunk.js.map": "/psuti-test/static/js/453.b5b94a15.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.2d39a810.js"
+    "static/js/main.6297c6e2.js"
   ]
 }
